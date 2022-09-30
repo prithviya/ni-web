@@ -1,0 +1,10 @@
+#component-nav
+{
+    background-image: linear-gradient(50deg,#cae3ffc2, #cae3ff98),url('https://cdn.pixabay.com/photo/2017/09/25/11/54/to-read-the-book-2784895_960_720.jpg');
+}
+.custom-sect-bg 
+{
+    max-width: 100%;
+    height: 127px;
+    overflow: hidden;
+}

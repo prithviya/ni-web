@@ -1,0 +1,9 @@
+.uk-input, .uk-textarea
+{
+    border: 1px solid #3474ebb0;
+    border-radius: 5px;
+}
+.uk-input:focus, .uk-textarea:focus
+{
+    border: 1px solid #f05a28;
+}

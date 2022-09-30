@@ -1,0 +1,69 @@
+.custom-sect-banner
+{
+  background-image: url('https://img.freepik.com/free-vector/earth-blue-wave-background_1017-36678.jpg?w=996&t=st=1661769933~exp=1661770533~hmac=64dfe08586946fd52c3c74aad3b2eef615629b9ca845b56c007d7d6cafb0b4b1');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 85vh;
+}
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  border: 1px solid #212121;
+  border-radius: 4px;
+  background-color: transparent;
+  transition: all 0.2s ease-in;
+  font-family: 'Noto Serif', serif;
+  position: relative;
+  overflow: hidden;
+  font-size: 19px;
+  color: #212121;
+  z-index: 1;
+ }
+ 
+ .button:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.25);
+  top: 100%;
+  width: 140%;
+  height: 180%;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+ }
+ 
+ .button:after {
+  content: "";
+  position: absolute;
+  left: 55%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.45);
+  top: 180%;
+  width: 160%;
+  height: 190%;
+  background-color: rgba(9,9,121,1);
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+ }
+ 
+ .button:hover {
+  color: #ffffff;
+  border: 1px solid rgba(9,9,121,1);
+ }
+ 
+ .button:hover:before {
+  top: -35%;
+  background-color: rgba(9,9,121,1);
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+ }
+ 
+ .button:hover:after {
+  top: -45%;
+  background-color: rgba(9,9,121,1);
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+ }

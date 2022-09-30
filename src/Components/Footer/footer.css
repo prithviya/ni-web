@@ -1,0 +1,9 @@
+.custom-footer-nav a:hover
+{
+    color: #f05a28;
+}
+.custom-footer-nav a
+{
+    color: #3474eb;
+    text-decoration: none;
+}

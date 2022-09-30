@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+
+.title
+{
+  font-family: 'Bitter', serif !important;
+  font-size: 4rem !important;
+  text-align: center;
+}
+.custom_heading:after {
+  content:'';
+  margin: 4px auto 0px;
+  display: block;
+  width: 120px;
+  height: 4px;
+  border-radius: 2px;
+  background: linear-gradient(50deg, #f05a28, #3474eb, #f05a28);
+}
+.custom_heading
+{
+  font-family: 'Bitter', serif !important;
+  text-align: center;
+  color: rgb(30, 30, 214);
+}
+:root
+{
+  --white: #fff;
+  --orange: #f05a28;
+  --black: #212121;
+  --blue: rgb(30, 30, 214);
+}
+.text-blue
+{
+  color: rgb(30, 30, 214);
+}
+.text-black
+{
+  color: var(--black);
+}
+.text-orange
+{
+  color: var(--orange);
+}
+.text-white
+{
+  color: var(--white) !important;
+}
+.custom_nav_menu, .uk-navbar-nav>li>a 
+{
+  color: var(--black) !important;
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-family: 'Noto Serif', serif;
+}
+.uk-navbar-nav>li>a:hover
+{
+  color: #f05a28 !important;
+}
+p 
+{
+  font-family: 'Noto Serif', serif;
+}
+h1,h2,h3,h4,h5,h6
+{
+  font-family: 'Bitter', serif !important;
+}
+.uk-container
+{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.uk-section-muted
+{
+  background-color: #cae3ff !important;
+}

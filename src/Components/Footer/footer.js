@@ -40,7 +40,7 @@ function footer() {
                         <div class="uk-card uk-card-body">
                             <img className='' src={ Images.BRAND_LOGO } width={'100%'} height={'100%'} />
                             <p>
-                            Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut dolor sit amet.
+                            Netexa is registered with ROC India, Start-up India, and AIC Raise. We operate as the “HUB for Industry and Education”.
                             </p>
                         </div>
                     </div>

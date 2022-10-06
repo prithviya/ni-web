@@ -23,7 +23,7 @@ function banner() {
             </div>
         </div>
         <Product/>
-        <Abt_sect/>
+        {/* <Abt_sect/> */}
         <Apply/>
     </div>
   )

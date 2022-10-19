@@ -12,10 +12,10 @@ function banner() {
         <div className='uk-section custom-sect-banner'>
             <div className='uk-position uk-position-center uk-text-center'>
                 <h1 className='title text-orange'>
-                    Think Twice Code Once
+                    Redefining Possibilities
                 </h1>   
                 <p className='text-black'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Transformation through innovation using niche technologies for Networks, Enterprise, IT and Industry Automation.
                 </p>
                 <button class="button"> 
                     Explore more

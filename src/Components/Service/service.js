@@ -6,9 +6,10 @@ function service() {
   return (
     <div className='uk-section uk-section-muted'>
         <div className='uk-container'>
-          <h1 className='custom_heading'>Services</h1>
+          <h1 className='custom_heading'>R & D Services</h1>
           <div data-uk-slider="autoplay: true; finite: false;">
-            <div className="uk-position-relative uk-visible-toggle" tabindex="-1">
+            <div className="uk-position-relative">
+              <div className="uk-slider-container">
                 <ul className="uk-slider-items uk-child-width-1-2@s uk-child-width-1-3@m uk-grid-match uk-grid-small" data-uk-grid>
                   <li>
                     <div>
@@ -29,9 +30,9 @@ function service() {
                             </button>
                           </a>
                           <div id="modal-cloud" data-uk-modal>
-                              <div class="uk-modal-dialog uk-modal-body">
-                                  <button class="uk-modal-close-outside" type="button" data-uk-close></button>
-                                  <h2 class="uk-modal-title">Cloud Storage Technology</h2>
+                              <div className="uk-modal-dialog uk-modal-body">
+                                  <button className="uk-modal-close-outside" type="button" data-uk-close></button>
+                                  <h2 className="uk-modal-title">Cloud Storage Technology</h2>
                                   <p>
                                   Cloud storage is a cloud computing model that stores data on the Internet through a cloud computing provider who manages and operates data storage as a service. It’s delivered on demand with just-in-time capacity and costs, and eliminates buying and managing your own data storage infrastructure. 
                                   </p>
@@ -58,7 +59,7 @@ function service() {
                         </div>
                         <div className="uk-card-body uk-text-center">
                           <h3 className='text-black'>
-                            5 Generation Technology
+                            5th Generation Technology
                           </h3>
                           <a className=''href='/#'>
                             <button className="learn-more" data-uk-toggle="target: #modal-generation">
@@ -69,9 +70,9 @@ function service() {
                             </button>
                           </a>
                           <div id="modal-generation" data-uk-modal>
-                              <div class="uk-modal-dialog uk-modal-body">
-                                  <button class="uk-modal-close-outside" type="button" data-uk-close></button>
-                                  <h2 class="uk-modal-title">5 Generation Technology</h2>
+                              <div className="uk-modal-dialog uk-modal-body">
+                                  <button className="uk-modal-close-outside" type="button" data-uk-close></button>
+                                  <h2 className="uk-modal-title">5 Generation Technology</h2>
                                   <p>
                                   5G is based on OFDM (Orthogonal frequency-division multiplexing), a method of modulating a digital signal across several different channels to reduce interference. 5G uses 5G NR air interface alongside OFDM principles. 5G also uses wider bandwidth technologies such as sub-6 GHz and mmWave. 
                                   </p>
@@ -117,9 +118,9 @@ function service() {
                             </button>
                           </a>
                           <div id="modal-lab" data-uk-modal>
-                              <div class="uk-modal-dialog uk-modal-body">
-                                  <button class="uk-modal-close-outside" type="button" data-uk-close></button>
-                                  <h2 class="uk-modal-title">Open Lab Technology</h2>
+                              <div className="uk-modal-dialog uk-modal-body">
+                                  <button className="uk-modal-close-outside" type="button" data-uk-close></button>
+                                  <h2 className="uk-modal-title">Open Lab Technology</h2>
                                   <p>
                                   OpenLab CDS is a chromatography data system that combines productivity, usability, and data integrity. With a single user interface you can control your Agilent LC, GC, single quadrupole LC/MS, and GC/MS, as well as other vendors’ instruments in the lab, to streamline training and support.
                                   </p>
@@ -168,9 +169,9 @@ function service() {
                             </button>
                           </a>
                           <div id="modal-industry" data-uk-modal>
-                              <div class="uk-modal-dialog uk-modal-body">
-                                  <button class="uk-modal-close-outside" type="button" data-uk-close></button>
-                                  <h2 class="uk-modal-title">Industry Automation</h2>
+                              <div className="uk-modal-dialog uk-modal-body">
+                                  <button className="uk-modal-close-outside" type="button" data-uk-close></button>
+                                  <h2 className="uk-modal-title">Industry Automation</h2>
                                   <p>
                                   Automation takes a step further mechanization that uses a particular machinery mechanism aided human operators for performing a task. Mechanization is the manual operation of a task using powered machinery that depends on human decision making.
                                   </p>
@@ -210,9 +211,9 @@ function service() {
                             </button>
                           </a>
                           <div id="modal-sources" data-uk-modal>
-                            <div class="uk-modal-dialog uk-modal-body">
-                              <button class="uk-modal-close-outside" type="button" data-uk-close></button>
-                              <h2 class="uk-modal-title">Open Sources Software</h2>
+                            <div className="uk-modal-dialog uk-modal-body">
+                              <button className="uk-modal-close-outside" type="button" data-uk-close></button>
+                              <h2 className="uk-modal-title">Open Sources Software</h2>
                               <p>
                               Open source refers to a software program or platform with source code that is readily accessible and which can be modified or enhanced by anyone. Open source access grants users of an application permission to fix broken links, enhance the design, or improve the original code.
                               </p>
@@ -223,9 +224,18 @@ function service() {
                     </div>
                   </li>
                 </ul>
+              </div>
+              <div className="uk-hidden@s">
+                  <a className="uk-position-center-left uk-position-small" href="/#" uk-slidenav-previous uk-slider-item="previous"></a>
+                  <a className="uk-position-center-right uk-position-small" href="/#" uk-slidenav-next uk-slider-item="next"></a>
+              </div>
+              <div className="uk-visible@s">
+                  <a className="uk-position-center-left-out uk-position-small" href="/#" uk-slidenav-previous uk-slider-item="previous"></a>
+                  <a className="uk-position-center-right-out uk-position-small" href="/#" uk-slidenav-next uk-slider-item="next"></a>
+              </div>
             </div>
             <ul className="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
-          </div>     
+          </div>
         </div>
     </div>
   )

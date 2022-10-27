@@ -30,7 +30,7 @@ function product() {
                                         <img src={Images.CLOUD_ICON} alt='Cloud tech'/>
                                     </div>
                                     <div class="profile-card__cnt js-profile-cnt">
-                                        <p className='text-white'>Cloud storage is a cloud computing model that stores data on the Internet through a cloud computing provider who manages and operates data storage as a service.</p>
+                                        <p className='text-white'>Cloud Computing that stores data on the Internet through a cloud computing provider who manages and operates data storage as a service.</p>
                                     </div>
                                 </div>
                             </div>

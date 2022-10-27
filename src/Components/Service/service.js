@@ -32,9 +32,9 @@ function service() {
                           <div id="modal-cloud" data-uk-modal>
                               <div className="uk-modal-dialog uk-modal-body">
                                   <button className="uk-modal-close-outside" type="button" data-uk-close></button>
-                                  <h2 className="uk-modal-title">Cloud Storage Technology</h2>
+                                  <h2 className="uk-modal-title">Cloud Computing</h2>
                                   <p>
-                                  Cloud storage is a cloud computing model that stores data on the Internet through a cloud computing provider who manages and operates data storage as a service. It’s delivered on demand with just-in-time capacity and costs, and eliminates buying and managing your own data storage infrastructure. 
+                                  Cloud computing is the delivery of different services through the Internet. These resources include tools and applications like data storage, servers, databases, networking, and software.
                                   </p>
                                   <h3 className='uk-margin-small'>
                                   Benefits of Cloud Computing
@@ -202,7 +202,7 @@ function service() {
                           <h3 className='text-black'>
                             Open Source Software
                           </h3>
-                          <a className=''href='/#'>
+                          <a className=''href='/#' rel="noopener noreferrer">
                             <button className="learn-more" data-uk-toggle="target: #modal-sources">
                               <span className="circle" aria-hidden="true">
                               <span className="icon arrow"></span>
@@ -223,15 +223,117 @@ function service() {
                       </div>
                     </div>
                   </li>
+                  <li>
+                    <div>
+                      <div className="uk-card uk-card-default custom-card-border">
+                        <div className="uk-card-media-top">
+                          <img src={Images.DESIGN_DEPLOYMENT} alt=""/>
+                        </div>
+                        <div className="uk-card-body uk-text-center">
+                          <h3 className='text-black'>
+                            Design & Deployment
+                          </h3>
+                          <a className=''href='/#' rel="noopener noreferrer">
+                            <button className="learn-more" data-uk-toggle="target: #modal-design">
+                              <span className="circle" aria-hidden="true">
+                              <span className="icon arrow"></span>
+                              </span>
+                              <span className="button-text">Learn More</span>
+                            </button>
+                          </a>
+                          <div id="modal-design" data-uk-modal>
+                            <div className="uk-modal-dialog uk-modal-body">
+                              <button className="uk-modal-close-outside" type="button" data-uk-close></button>
+                              <h2 className="uk-modal-title"> Design & Deployment</h2>
+                              <p>
+                              A deployment architecture depicts the mapping of a logical architecture to a physical environment. The physical environment includes the computing nodes in an intranet or Internet environment, CPUs, memory, storage devices, and other hardware and network devices.
+                              </p>
+                              <p>
+                              Designing the deployment architecture involves sizing the deployment to determine the physical resources necessary to meet the system requirements specified during the technical requirements phase. You also optimize resources by analyzing the results of sizing the deployment to create a design that provides the best use of resources within business constraints.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <div className="uk-card uk-card-default custom-card-border">
+                        <div className="uk-card-media-top">
+                          <img src={Images.INTEGRATION_TESTING} alt=""/>
+                        </div>
+                        <div className="uk-card-body uk-text-center">
+                          <h3 className='text-black'>
+                          Integration & Testing
+                          </h3>
+                          <a className=''href='/#' rel="noopener noreferrer">
+                            <button className="learn-more" data-uk-toggle="target: #modal-testing">
+                              <span className="circle" aria-hidden="true">
+                              <span className="icon arrow"></span>
+                              </span>
+                              <span className="button-text">Learn More</span>
+                            </button>
+                          </a>
+                          <div id="modal-testing" data-uk-modal>
+                            <div className="uk-modal-dialog uk-modal-body">
+                              <button className="uk-modal-close-outside" type="button" data-uk-close></button>
+                              <h2 className="uk-modal-title">Integration & Testing</h2>
+                              <p>
+                              Integration Testing is defined as a type of testing where software modules are integrated logically and tested as a group. A typical software project consists of multiple software modules, coded by different programmers. 
+                              </p>
+                              <p>
+                              The purpose of this level of testing is to expose defects in the interaction between these software modules when they are integrated. Integration Testing focuses on checking data communication amongst these modules. Hence it is also termed as ‘I & T’ (Integration and Testing), ‘String Testing’ and sometimes ‘Thread Testing’.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <div className="uk-card uk-card-default custom-card-border">
+                        <div className="uk-card-media-top">
+                          <img src={Images.MANAGED_SERVICES} alt=""/>
+                        </div>
+                        <div className="uk-card-body uk-text-center">
+                          <h3 className='text-black'>
+                            Managed Services
+                          </h3>
+                          <a className=''href='/#' rel="noopener noreferrer">
+                            <button className="learn-more" data-uk-toggle="target: #modal-managed_services">
+                              <span className="circle" aria-hidden="true">
+                              <span className="icon arrow"></span>
+                              </span>
+                              <span className="button-text">Learn More</span>
+                            </button>
+                          </a>
+                          <div id="modal-managed_services" data-uk-modal>
+                            <div className="uk-modal-dialog uk-modal-body">
+                              <button className="uk-modal-close-outside" type="button" data-uk-close></button>
+                              <h2 className="uk-modal-title">Managed Services</h2>
+                              <p>
+                              Every business uses technology as a means to compete in their field and maximize efficiency.Businesses rely on networks and IT more than ever, and the funds needed to maintain an in-house team keep rising. For many small businesses, this often means sacrificing the quantity or quality of network maintenance efforts to conserve limited resources.
+                              </p>
+                              <p>
+                              Managed services are a way to outsource maintenance and repairs to experts. A top-notch managed services provider (MSP) performs multiple functions for your company, such as: Network Administration, Data Backup, Network Security, Communications, IT Support
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
                 </ul>
               </div>
               <div className="uk-hidden@s">
-                  <a className="uk-position-center-left uk-position-small" href="/#" uk-slidenav-previous uk-slider-item="previous"></a>
-                  <a className="uk-position-center-right uk-position-small" href="/#" uk-slidenav-next uk-slider-item="next"></a>
+                  <a className="uk-position-center-left uk-position-small"  rel="noopener noreferrer" href="/#" data-uk-slidenav-previous uk-slider-item="previous"></a>
+                  <a className="uk-position-center-right uk-position-small"  rel="noopener noreferrer" href="/#" data-uk-slidenav-next data-uk-slider-item="next"></a>
               </div>
               <div className="uk-visible@s">
-                  <a className="uk-position-center-left-out uk-position-small" href="/#" uk-slidenav-previous uk-slider-item="previous"></a>
-                  <a className="uk-position-center-right-out uk-position-small" href="/#" uk-slidenav-next uk-slider-item="next"></a>
+                  <a className="uk-position-center-left-out uk-position-small"  rel="noopener noreferrer" href="/#" data-uk-slidenav-previous uk-slider-item="previous"></a>
+                  <a className="uk-position-center-right-out uk-position-small"  rel="noopener noreferrer" href="/#" data-uk-slidenav-next uk-slider-item="next"></a>
               </div>
             </div>
             <ul className="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>

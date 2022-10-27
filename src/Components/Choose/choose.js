@@ -14,7 +14,7 @@ function choose() {
                               <div class="front-content">
                               <img src="https://img.icons8.com/ios/60/f05a28/react-native--v1.png"/>
                                   <h3 className='uk-card-title'>
-                                    React
+                                    Openstack / Openshift
                                   </h3>
                               </div>
                           </div>
@@ -34,7 +34,7 @@ function choose() {
                               <div class="front-content">
                               <img src="https://img.icons8.com/ios/60/f05a28/ruby-programming-language.png"/>
                                   <h3 className='uk-card-title'>
-                                    Ruby
+                                    IAAS / CaaS
                                   </h3>
                               </div>
                           </div>
@@ -54,7 +54,7 @@ function choose() {
                               <div class="front-content">
                               <img src="https://img.icons8.com/ios/60/f05a28/python--v1.png"/>
                                   <h3 className='uk-card-title'>
-                                    Python
+                                    NFV /VNF
                                   </h3>
                               </div>
                           </div>
@@ -74,7 +74,7 @@ function choose() {
                               <div class="front-content">
                               <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/60/f05a28/external-coding-internet-technology-vitaliy-gorbachev-lineal-vitaly-gorbachev.png"/>
                                   <h3 className='uk-card-title'>
-                                    Angular
+                                    ROBOT
                                   </h3>
                               </div>
                           </div>

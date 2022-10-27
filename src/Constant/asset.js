@@ -15,4 +15,7 @@ export default
     OPEN_LAB: require('../Static/open_lab.png'),
     CLOUD: require('../Static/cloud_Technology.png'),
     INDUSTRY: require('../Static/Industry_Automation.png'),
+    MANAGED_SERVICES:  require('../Static/manage_service.webp'),
+    INTEGRATION_TESTING: require("../Static/integrated_testing.webp"),
+    DESIGN_DEPLOYMENT: require('../Static/design_development.webp'),
 };

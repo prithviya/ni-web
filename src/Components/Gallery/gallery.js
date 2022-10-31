@@ -26,11 +26,11 @@ function gallery() {
 							<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
 								<img src="https://images.pexels.com/photos/1181472/pexels-photo-1181472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="1800" height="1200" alt=""/>
 								<div class="uk-overlay custom-sect-title uk-padding-small uk-overlay-default uk-position-bottom">
-									<p className='text-black'>Robot</p>
+									<p className='text-black'>VNF</p>
 								</div>
 								<div class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default uk-flex uk-flex-middle">
 									<p class="uk-margin-remove text-black">
-									robotics field is to create intelligent machines that can assist humans in a variety of ways.
+									Virtualized network services running on open computing platforms formerly carried out by proprietary hardware technology.
 									</p>
 								</div>
 							</div>
@@ -77,11 +77,11 @@ function gallery() {
 							<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
 								<img src="https://img.freepik.com/premium-photo/young-programmer-working-software-javascript-computer-it-office_229060-189.jpg?w=740" width="1800" height="1200" alt=""/>
 								<div class="uk-overlay custom-sect-title uk-padding-small uk-overlay-default uk-position-bottom">
-									<p className='text-black'>Python</p>
+									<p className='text-black'>SDN</p>
 								</div>
 								<div class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default uk-flex uk-flex-middle">
 									<p class="uk-margin-remove text-black">
-									Python is used for data analytics, machine learning, and even design. 
+									An approach to network management that enables programmatically efficient network configuration to improve network performance and monitoring.
 									</p>
 								</div>
 							</div>

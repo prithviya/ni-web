@@ -14,14 +14,14 @@ function choose() {
                               <div class="front-content">
                               <img src="https://img.icons8.com/ios/60/f05a28/react-native--v1.png"/>
                                   <h3 className='uk-card-title'>
-                                    Openstack / Openshift
+                                  IoT
                                   </h3>
                               </div>
                           </div>
                           <div class="service-content">
-                              <h3>design</h3>
+                              <h3>IoT</h3>
                               <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                              Describes physical objects with sensors, processing ability, software, and other technologies that connect and exchange data with other devices and systems over the internet or other communication networks.
                               </p>
                           </div>
                       </div>
@@ -34,14 +34,14 @@ function choose() {
                               <div class="front-content">
                               <img src="https://img.icons8.com/ios/60/f05a28/ruby-programming-language.png"/>
                                   <h3 className='uk-card-title'>
-                                    IAAS / CaaS
+                                    NFVI – IaaS / CaaS
                                   </h3>
                               </div>
                           </div>
                           <div class="service-content">
-                              <h3>design</h3>
+                              <h3>IaaS / Caas</h3>
                               <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                              NFVI enables  to deploy virtual network functions (VNFs) or cloud native functions (CNFs) from multiple vendors, as well as OSS and BSS applications, with speed while keeping total cost of ownership low
                               </p>
                           </div>
                       </div>
@@ -54,14 +54,14 @@ function choose() {
                               <div class="front-content">
                               <img src="https://img.icons8.com/ios/60/f05a28/python--v1.png"/>
                                   <h3 className='uk-card-title'>
-                                    NFV /VNF
+                                  SDN/NFV
                                   </h3>
                               </div>
                           </div>
                           <div class="service-content">
-                              <h3>design</h3>
+                              <h3>SDN/NFV</h3>
                               <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                              An approach to network management that enables dynamic, programmatically efficient network configuration to improve network performance and monitoring,  like cloud computing than traditional network management.
                               </p>
                           </div>
                       </div>
@@ -74,14 +74,14 @@ function choose() {
                               <div class="front-content">
                               <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/60/f05a28/external-coding-internet-technology-vitaliy-gorbachev-lineal-vitaly-gorbachev.png"/>
                                   <h3 className='uk-card-title'>
-                                    ROBOT
+                                  Hyper Scaler 
                                   </h3>
                               </div>
                           </div>
                           <div class="service-content">
-                              <h3>design</h3>
+                              <h3>Hyper Scaler </h3>
                               <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                              AWS/Azure/GCP - A complete mix of hardware and facilities that can scale a distributed computing environment up to thousands of servers.
                               </p>
                           </div>
                       </div>

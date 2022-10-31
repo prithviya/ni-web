@@ -44,7 +44,7 @@ function product() {
                                         <img src={Images.INDUSTRY_ICON} alt='industry icon'/>
                                     </div>
                                     <div class="profile-card__cnt js-profile-cnt">
-                                        <p className='text-white'>Industrial automation uses control systems and equipment, such as computer software and robots, to perform tasks that were historically done manually. </p>
+                                        <p className='text-white'>Integrating new technologies, including Internet of Things (IoT), Cloud Computing and Analytics, AI and Machine Learning into production facilities and operations. </p>
                                     </div>
                                 </div>
                             </div>
@@ -72,7 +72,7 @@ function product() {
                                         <img src={Images.OPENLAB_ICON} alt='openLab' />
                                     </div>
                                     <div class="profile-card__cnt js-profile-cnt">
-                                        <p className='text-white'>OpenLab CDS is a chromatography data system that combines productivity, usability, and data integrity with a single user interface.</p>
+                                        <p className='text-white'>OpenLab, Combining device OS, programmable forwarding planes, network OS & new SDN/NFV, VNF orchestration software systems to accelerate the deployment.</p>
                                     </div>
                                 </div>
                             </div>

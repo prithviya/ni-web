@@ -8,3 +8,9 @@
     height: 127px;
     overflow: hidden;
 }
+.custom-text-bg
+{
+    background-color: rgba(217, 95, 64, 0.8) !important;
+    padding: 5px;
+    border-radius: 5px;
+}

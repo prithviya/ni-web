@@ -9,7 +9,7 @@ export default
     OS_ICON: require("../Static/os_icon.png"),
     OPENLAB_ICON: require("../Static/Openlab_icon.png"),
     // sample
-    DEMO: require('../Static/PXL.png'),
+   
     OPEN_SOURCE: require('../Static/open_souorces.png'),
     GENERATION: require('../Static/5G.png'),
     OPEN_LAB: require('../Static/open_lab.png'),
@@ -18,4 +18,13 @@ export default
     MANAGED_SERVICES:  require('../Static/manage_service.webp'),
     INTEGRATION_TESTING: require("../Static/integrated_testing.webp"),
     DESIGN_DEPLOYMENT: require('../Static/design_development.webp'),
+    // our story images
+    LEADERSHIP_TEAM: require('../Static/leadership_team.webp'),
+    OURSOLUTION: require('../Static/oursolution.webp'),
+    STORYLOGO: require('../Static/storylogo.webp'),
+    OURSTORY: require('../Static/ourstory.webp'),
+    // life @ netexa
+    DEMO: require('../Static/life@profile.webp'),
+    LIFEIMG1: require('../Static/life@img-1.webp'),
+    LIFEIMG2: require('../Static/life@img-2.webp'),
 };

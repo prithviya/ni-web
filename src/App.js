@@ -9,7 +9,7 @@ import Choose from './Components/Choose/choose';
 import Contact from "./Components/Contact/test";
 import Footer from './Components/Footer/footer';
 import Gallery from './Components/Gallery/gallery';
-import Abt_section from './Components/abt/abt';
+// import Abt_section from './Components/abt/abt';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           <Banner/>
         </div>
         <div>
-          <About/>
+          <About id='about'/>
         </div>
         <div>
           <Gallery/>
@@ -31,7 +31,7 @@ function App() {
           <Choose/>
         </div>
         <div>
-          <Contact/>
+          <Contact id='contact'/>
         </div>
         <div>
           <Footer/>

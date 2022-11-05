@@ -1,5 +1,6 @@
 import React from 'react';
-import './apply.css'
+import './apply.css';
+import Images from '../../Constant/asset';
 
 function apply() {
   return (
@@ -9,7 +10,7 @@ function apply() {
                 <div>
                     <div class="uk-card">
                     <h1 className='custom_heading'>Our <br/>Solutions</h1>
-                    <img src='https://cdn.pixabay.com/photo/2016/11/08/05/10/students-1807505_960_720.jpg'/>
+                    <img src={Images.OURSOLUTION}/>
                     </div>
                 </div>
                 <div class="">
@@ -17,11 +18,11 @@ function apply() {
                         <li>
                             <a href="#">
                                 <div class='uk-inline custom-sect-bg uk-float-left'>
-                                    <img src='https://cdn.pixabay.com/photo/2016/03/26/13/09/workspace-1280538_960_720.jpg'/>
+                                    <img src={Images.OURSTORY} alt='story_logo'/>
                                     <div class="uk-position-bottom-right uk-overlay">
                                         <div class="uk-clearfix">
                                             <div class="uk-float-right">
-                                                <div class="uk-card text-white">Our Story</div>
+                                                <div class="uk-card text-white custom-text-bg">Our Story</div>
                                             </div>
                                         </div>                        
                                     </div>
@@ -31,11 +32,11 @@ function apply() {
                         <li>
                             <a href="#">
                                 <div class='uk-inline custom-sect-bg uk-float-left'>
-                                    <img src='https://cdn.pixabay.com/photo/2015/09/05/22/33/office-925806__340.jpg'/>
+                                <img src={Images.STORYLOGO} alt='story_logo'/>
                                     <div class="uk-position-bottom-right uk-overlay">
                                         <div class="uk-clearfix">
                                             <div class="uk-float-right">
-                                                <div class="uk-card text-white">Story of Our Logo</div>
+                                                <div class="uk-card text-white custom-text-bg">Story of Our Logo</div>
                                             </div>
                                         </div>                        
                                     </div>
@@ -45,11 +46,11 @@ function apply() {
                         <li>
                             <a href="#">
                                 <div class='uk-inline custom-sect-bg uk-float-left'>
-                                    <img src='https://cdn.pixabay.com/photo/2016/08/17/02/25/digitization-1599552_960_720.jpg'/>
+                                    <img src={Images.LEADERSHIP_TEAM} alt='leadership_team'/>
                                     <div class="uk-position-bottom-right uk-overlay">
                                         <div class="uk-clearfix">
                                             <div class="uk-float-right">
-                                                <div class="uk-card text-white">Leadership Team</div>
+                                                <div class="uk-card text-white custom-text-bg">Leadership Team</div>
                                             </div>
                                         </div>                        
                                     </div>

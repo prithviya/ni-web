@@ -20,16 +20,16 @@ function about()
                             <h2> 
                               Notable Accomplishments:
                             </h2>
-                            <li>
+                            <li className='text-black'>
                               Closed full cycle mandates for executive to top leadership positions for the Telecom Sector across the globe.
                             </li>
-                            <li>
+                            <li className='text-black'>
                               Diversity in hiring enriches the economy and talent pool – Fixed leadership positions with the Women Workforce for IP Network and Cloud Technologies.
                             </li>
-                            <li>
+                            <li className='text-black'>
                               Fulfilled leadership and technical demands in Analytics Space.
                             </li>
-                            <li>
+                            <li className='text-black'>
                               Fixed higher roles in AI/ML, and Robotics in a hyper-scale environment for Tier-1, Telco and Enterprises.
                             </li>
                           </ul>              
@@ -44,25 +44,25 @@ function about()
                               <div>
                                   <div class="uk-card">
                                     <ul className=''>
-                                      <li>
+                                      <li className='text-black'>
                                         Client Management: Engaging with top leaders, and business partners to help in hiring the candidate aligned with the client’s demands.
                                       </li>                                      
-                                      <li>
+                                      <li className='text-black'>
                                         Utilizing effective recruitment strategies
                                       </li>
-                                      <li>
+                                      <li className='text-black'>
                                         Create, innovate and implement developmental initiatives
                                       </li>  
-                                      <li>
+                                      <li className='text-black'>
                                         Industry – Institute Connect
                                       </li>
-                                      <li>
+                                      <li className='text-black'>
                                         Strengthening client relationships
                                       </li>  
-                                      <li>
+                                      <li className='text-black'>
                                         Market intellect
                                       </li>
-                                      <li>
+                                      <li className='text-black'>
                                         Upskilling and reskilling
                                       </li>                              
                                     </ul>   
@@ -98,21 +98,21 @@ function about()
               <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
             </div>
           </div>
-          <div className='uk-width-1-6@m'>
+          <div className='uk-width-1-4@m'>
             <div class="uk-card">
-              <img src={ Images.DEMO }/>
+              <img src={ Images.LIFEIMG2 }/>
             </div>
           </div>
         </div>
         <div class="uk-grid-collapse uk-grid-match uk-visible@m" data-uk-grid>
           <div className='uk-width-1-2@m'>
             <div class="uk-card">
-              <img src="https://img.freepik.com/free-photo/collaborative-process-multicultural-businesspeople-using-laptop-presentation-communication-meeting-brainstorming-ideas-about-project-colleagues-working-plan-success-strategy-modern-office_7861-2510.jpg?w=740&t=st=1661835559~exp=1661836159~hmac=895a08c541d0a2b4d4b124da5b256f89d97752113a44e8635a1529ba424237a2"/>
+              <img src={Images.LIFEIMG1} alt='life@netexaimge1'/>
             </div>
           </div>
-          <div className='uk-width-1-5@m'>
+          <div className='uk-width-1-4@m'>
             <div class="uk-card">
-              <img src='https://img.freepik.com/free-photo/into-success-group-young-freelancers-office-have-conversation-smiling_146671-13567.jpg?w=740&t=st=1661836143~exp=1661836743~hmac=84bb93aa242128e91888789da0ed94a23164860da72476ec3978c87dc6ebf5bb'/>
+              <img src={Images.DEMO} alt='life@netexaimge2'/>
             </div>
           </div>
         </div>
@@ -122,16 +122,16 @@ function about()
                 <h2 className='uk-text-center'> 
                   Notable Accomplishment
                 </h2>
-                <p>
+                <p className='text-black'>
                   - Closed full cycle mandates for executive to top leadership positions for the Telecom Sector across the globe.
                 </p>
-                <p>
+                <p className='text-black'>
                   - Diversity in hiring enriches the economy and talent pool – Fixed leadership positions with the Women Workforce for IP Network and Cloud Technologies.
                 </p>
-                <p>
+                <p className='text-black'>
                   - Fulfilled leadership and technical demands in Analytics Space.
                 </p>
-                <p>
+                <p className='text-black'>
                   - Fixed higher roles in AI/ML, and Robotics in a hyper-scale environment for Tier-1, Telco and Enterprises.
                 </p>
               </div>

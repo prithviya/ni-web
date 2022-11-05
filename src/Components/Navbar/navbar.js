@@ -15,7 +15,6 @@ function navbar() {
                         </a>
                     </li>
                 </ul>
-
             </div>
             <div class="uk-navbar-right uk-margin-medium-right">
                 <ul class="uk-navbar-nav">
@@ -29,7 +28,7 @@ function navbar() {
                         <Link className='text-white' to="service" spy={true} smooth={true}>Service</Link>
                     </li>
                     <li className='uk-visible@m custom_nav_menu'>
-                    <Link className='text-white' to="team" spy={true} smooth={true}>Testimonials</Link>
+                    <Link className='text-white' to="testimonial" spy={true} smooth={true}>Testimonials</Link>
                     </li>
                     <li className='uk-visible@m custom_nav_menu'>
                     <Link className='text-white' to="contact" spy={true} smooth={true}>Contact</Link>
@@ -57,7 +56,7 @@ function navbar() {
                                         <Link className='text-white' to="service" spy={true} smooth={true}>Service</Link>
                                     </li>
                                     <li className='uk-hidden@m custom_nav_menu'>
-                                        <Link className='text-white' to="team" spy={true} smooth={true}>Testimonials</Link>
+                                        <Link className='text-white' to="testimonial" spy={true} smooth={true}>Testimonials</Link>
                                     </li>
                                     <li className='uk-hidden@m custom_nav_menu'>
                                         <Link className='text-white' to="contact" spy={true} smooth={true}>Contact</Link>

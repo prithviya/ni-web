@@ -13,21 +13,21 @@ function footer() {
                         <div class="uk-card uk-card-body">
                         <img src="https://img.icons8.com/laces/64/3474eb/address.png"/>
                             <h3 class="uk-card-title uk-margin">Find us</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <p className='text-black'>16/1 Chellandiamman Nagar, Singanallur, <br/>Coimbatore-641005</p>
                         </div>
                     </div>
                     <div>
                         <div class="uk-card uk-card-body">
                             <img src="https://img.icons8.com/laces/64/3474eb/whatsapp.png"/>
                             <h3 class="uk-card-title uk-margin">Call us</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <p className='text-black'>96946 10272</p>
                         </div>
                     </div>
                     <div>
                         <div class="uk-card uk-card-body">
                             <img src="https://img.icons8.com/laces/64/3474eb/address-book.png"/>
                             <h3 class="uk-card-title uk-margin">Mail us</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <p className='text-black'>info@netexa.in</p>
                         </div>
                     </div>
                 </div>
@@ -39,7 +39,7 @@ function footer() {
                     <div>
                         <div class="uk-card uk-card-body">
                             <img className='' src={ Images.BRAND_LOGO } width={'100%'} height={'100%'} />
-                            <p>
+                            <p className='text-black'>
                             Netexa is registered with ROC India, Start-up India, and AIC Raise. We operate as the “HUB for Industry and Education”.
                             </p>
                         </div>
@@ -81,33 +81,33 @@ function footer() {
                             </h3>
                             <div className='uk-child-width-1-2 uk-text-center'data-uk-grid>
                                 <div>
-                                    <a>
-                                        <img src="https://img.icons8.com/laces/40/3474eb/facebook-new.png"/>
+                                    <a href='https://www.facebook.com/netexaindia/' target={'_blank'}>
+                                    <img src="https://img.icons8.com/external-justicon-flat-justicon/40/null/external-facebook-social-media-justicon-flat-justicon.png"/>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href='https://api.whatsapp.com/send/?phone=919694610272&amp;text=Hi,&amp;app_absent=0'>
+                                        <img src="https://img.icons8.com/external-justicon-flat-justicon/40/null/external-whatsapp-social-media-justicon-flat-justicon.png"/>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href='https://www.instagram.com/netexa_india/' target={'_blank'}>
+                                        <img src="https://img.icons8.com/external-justicon-flat-justicon/40/null/external-instagram-social-media-justicon-flat-justicon.png"/>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href='https://twitter.com/NetexaIndia/'tabIndex={'_blank'}>
+                                        <img src="https://img.icons8.com/external-justicon-flat-justicon/40/null/external-twitter-social-media-justicon-flat-justicon.png"/>
                                     </a>
                                 </div>
                                 <div>
                                     <a>
-                                    <img src="https://img.icons8.com/laces/40/3474eb/whatsapp.png"/>
+                                        <img src="https://img.icons8.com/external-justicon-flat-justicon/40/null/external-linkedin-social-media-justicon-flat-justicon.png"/>
                                     </a>
                                 </div>
                                 <div>
-                                    <a>
-                                        <img src="https://img.icons8.com/laces/40/3474eb/instagram-new.png"/>
-                                    </a>
-                                </div>
-                                <div>
-                                    <a>
-                                        <img src="https://img.icons8.com/laces/40/3474eb/twitter.png"/>
-                                    </a>
-                                </div>
-                                <div>
-                                    <a>
-                                        <img src="https://img.icons8.com/laces/40/3474eb/youtube-play.png"/>
-                                    </a>
-                                </div>
-                                <div>
-                                    <a>
-                                    <img src="https://img.icons8.com/laces/40/3474eb/mail-network.png"/>
+                                    <a href='mailto:info@netexa.in'>
+                                        <img src="https://img.icons8.com/external-justicon-flat-justicon/40/null/external-gmail-social-media-justicon-flat-justicon.png"/>
                                     </a>
                                 </div>
                             </div>
@@ -118,7 +118,7 @@ function footer() {
                             <h3 class="uk-card-title uk-margin">
                                 Location
                             </h3>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.4635496128876!2d76.96951871428803!3d10.928314159361229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85b1072f0a6a7%3A0x40c812a7d5394fdf!2sAIC%20RAISE%20Startup%20Incubation%20Center!5e0!3m2!1sen!2sin!4v1661764500166!5m2!1sen!2sin" width="100%" height="210" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d346.17240153449524!2d77.022261821217!3d11.00154115915202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8576f6478ffd9%3A0x5ad857aa6a3b0591!2s16%2F1%2C%20Venkata%20Lakshmi%20Nagar%2C%20Chellandy%20Amman%20Nagar%2C%20Singanallur%2C%20Tamil%20Nadu%20641005!5e0!3m2!1sen!2sin!4v1667628627505!5m2!1sen!2sin" width="100%" height="210" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>

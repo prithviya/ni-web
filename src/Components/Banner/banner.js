@@ -1,9 +1,7 @@
 import React from 'react';
 import './banner.css';
 import Navigation_Bar from '../Navbar/navbar';
-import Product from '../Product/product';
-import Apply from '../Apply/apply';
-import Abt_sect from '../abt/abt';
+import { Link } from "react-scroll";
 
 function banner() {
   return (
@@ -17,14 +15,16 @@ function banner() {
                 <p className='text-black'>
                 Transformation through innovation using niche technologies for Networks, Enterprise, IT and Industry Automation.
                 </p>
-                <button class="button"> 
-                    Explore more
-                </button>
+                <Link to='contact' spy={true} smooth={true}>
+                    <button class="button"> 
+                        Explore more
+                    </button>
+                </Link>               
             </div>
         </div>
-        <Product/>
+      
         {/* <Abt_sect/> */}
-        <Apply/>
+        
     </div>
   )
 }

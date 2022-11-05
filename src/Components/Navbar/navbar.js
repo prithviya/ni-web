@@ -19,55 +19,54 @@ function navbar() {
             <div class="uk-navbar-right uk-margin-medium-right">
                 <ul class="uk-navbar-nav">
                     <li className='uk-visible@m custom_nav_menu'>                        
-                        <Link className='text-white' to="home" spy={true} smooth={true}>Home</Link>                        
+                        <Link to="home" className='text-white' spy={true} smooth={true}>Home</Link>                        
                     </li>
                     <li className='uk-visible@m custom_nav_menu'>
-                        <Link className='text-white' to="about" spy={true} smooth={true}>About</Link>
+                        <Link to="about" className='text-white' spy={true} smooth={true}>About</Link>
                     </li>
                     <li className='uk-visible@m custom_nav_menu'>
                         <Link className='text-white' to="service" spy={true} smooth={true}>Service</Link>
                     </li>
                     <li className='uk-visible@m custom_nav_menu'>
-                    <Link className='text-white' to="testimonial" spy={true} smooth={true}>Testimonials</Link>
+                    <Link to="contact" className='text-white' spy={true} smooth={true}>Testimonials</Link>
                     </li>
                     <li className='uk-visible@m custom_nav_menu'>
-                    <Link className='text-white' to="contact" spy={true} smooth={true}>Contact</Link>
+                    <Link to="footer" className='text-white' spy={true} smooth={true}>Contact</Link>
                     </li>
                     <li className='uk-hidden@m custom_nav_menu'>
                         <a class="uk-margin-small-right" uk-toggle="target: #offcanvas-nav-primary">
                             <img src={ Images.MENU }/>
-                        </a>
-                        <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
-                            <div class="uk-offcanvas-bar uk-flex uk-flex-column">
-                                <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
-                                    <li className='uk-active'>
-                                        <a href="#" className='uk-hidden@m custom_nav_menu'>
-                                            <img src={ Images.BRAND_LOGO } width='80px' height='80px' />
-                                        </a>
-                                    </li>
-                                    <hr/>
-                                    <li className='uk-hidden@m custom_nav_menu'>
-                                        <Link className='text-white' to="home" spy={true} smooth={true}>Home</Link>
-                                    </li>
-                                    <li className='uk-hidden@m custom_nav_menu'>
-                                        <Link className='text-white' to="about" spy={true} smooth={true}>About</Link>
-                                    </li>
-                                    <li className='uk-hidden@m custom_nav_menu'>
-                                        <Link className='text-white' to="service" spy={true} smooth={true}>Service</Link>
-                                    </li>
-                                    <li className='uk-hidden@m custom_nav_menu'>
-                                        <Link className='text-white' to="testimonial" spy={true} smooth={true}>Testimonials</Link>
-                                    </li>
-                                    <li className='uk-hidden@m custom_nav_menu'>
-                                        <Link className='text-white' to="contact" spy={true} smooth={true}>Contact</Link>
-                                    </li>
-                                </ul>    
-                            </div>
-                        </div>
-                        
+                        </a>                       
                     </li>
+                    <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
+                        <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+                            <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+                                <li className='uk-active'>
+                                    <a href="#" className='uk-hidden@m custom_nav_menu'>
+                                        <img src={ Images.BRAND_LOGO } width='80px' height='80px' />
+                                    </a>
+                                </li>
+                                <hr/>
+                                <li className='uk-hidden@m custom_nav_menu'>                        
+                                    <Link to="home" className='text-white' spy={true} smooth={true}>Home</Link>                        
+                                </li>
+                                <li className='uk-hidden@m custom_nav_menu'>
+                                    <Link to="about" className='text-white' spy={true} smooth={true}>About</Link>
+                                </li>
+                                <li className='uk-hidden@m custom_nav_menu'>
+                                    <Link to="service" className='text-white' spy={true} smooth={true}>Service</Link>
+                                </li>
+                                <li className='uk-hidden@m custom_nav_menu'>
+                                    <Link to="contact" className='text-white' spy={true} smooth={true}>Testimonials</Link>
+                                </li>
+                                <li className='uk-hidden@m custom_nav_menu'>
+                                    <Link to="footer" className='text-white' spy={true} smooth={true}>Contact</Link>
+                                </li>
+                            </ul>    
+                        </div>
+                    </div> 
+                    
                 </ul>
-
             </div>
         </nav>
         <button

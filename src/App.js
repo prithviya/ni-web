@@ -10,16 +10,20 @@ import Contact from "./Components/Contact/test";
 import Footer from './Components/Footer/footer';
 import Gallery from './Components/Gallery/gallery';
 // import Abt_section from './Components/abt/abt';
+import Product from './Components/Product/product';
+import Apply from './Components/Apply/apply';
 
 function App() {
   return (
     <div className="App">
      <>
-        <div id="banner">
+        <div id="home">
           <Banner/>
+          <Product/>
+          <Apply/>
         </div>
-        <div>
-          <About id='about'/>
+        <div id='about'>
+          <About/>
         </div>
         <div>
           <Gallery/>
@@ -27,13 +31,13 @@ function App() {
         <div id="service">
           <Service/>
         </div>
-        <div>
+        <div >
           <Choose/>
         </div>
-        <div>
-          <Contact id='contact'/>
+        <div id='contact'>
+          <Contact/>
         </div>
-        <div>
+        <div id='footer'>
           <Footer/>
         </div>
      </>

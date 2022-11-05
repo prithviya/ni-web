@@ -11,21 +11,21 @@ function footer() {
                 <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" data-uk-grid>
                     <div>
                         <div class="uk-card uk-card-body">
-                        <img src="https://img.icons8.com/laces/64/3474eb/address.png"/>
+                        <img src="https://img.icons8.com/laces/64/3474eb/address.png" alt='location'/>
                             <h3 class="uk-card-title uk-margin">Find us</h3>
                             <p className='text-black'>16/1 Chellandiamman Nagar, Singanallur, <br/>Coimbatore-641005</p>
                         </div>
                     </div>
                     <div>
                         <div class="uk-card uk-card-body">
-                            <img src="https://img.icons8.com/laces/64/3474eb/whatsapp.png"/>
+                            <img src="https://img.icons8.com/laces/64/3474eb/whatsapp.png" alt='call us'/>
                             <h3 class="uk-card-title uk-margin">Call us</h3>
-                            <p className='text-black'>96946 10272</p>
+                            <p className='text-black'>98946 10272</p>
                         </div>
                     </div>
                     <div>
                         <div class="uk-card uk-card-body">
-                            <img src="https://img.icons8.com/laces/64/3474eb/address-book.png"/>
+                            <img src="https://img.icons8.com/laces/64/3474eb/address-book.png" alt='mail'/>
                             <h3 class="uk-card-title uk-margin">Mail us</h3>
                             <p className='text-black'>info@netexa.in</p>
                         </div>
@@ -52,24 +52,24 @@ function footer() {
                                     <Link className='' to="home" spy={true} smooth={true}>Home</Link>
                                 </li>
                                 <li className='custom-footer-nav'>
-                                    <a>
+                                    <Link to="about" spy={true} smooth={true}>
                                         About Us
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className='custom-footer-nav'>
-                                    <a>
+                                    <Link to='service' spy={true} smooth={true}>
                                         Services
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className='custom-footer-nav'>
-                                    <a>
+                                    <Link to='contact' spy={true} smooth={true}>
                                         Testimonial
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className='custom-footer-nav'>
-                                    <a>
+                                    <Link to='footer' spy={true} smooth={true}>
                                         Contact
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
@@ -82,32 +82,32 @@ function footer() {
                             <div className='uk-child-width-1-2 uk-text-center'data-uk-grid>
                                 <div>
                                     <a href='https://www.facebook.com/netexaindia/' target={'_blank'}>
-                                    <img src="https://img.icons8.com/external-justicon-flat-justicon/40/null/external-facebook-social-media-justicon-flat-justicon.png"/>
+                                    <img src="https://img.icons8.com/external-justicon-flat-justicon/40/null/external-facebook-social-media-justicon-flat-justicon.png" alt='fb'/>
                                     </a>
                                 </div>
                                 <div>
-                                    <a href='https://api.whatsapp.com/send/?phone=919694610272&amp;text=Hi,&amp;app_absent=0'>
-                                        <img src="https://img.icons8.com/external-justicon-flat-justicon/40/null/external-whatsapp-social-media-justicon-flat-justicon.png"/>
+                                    <a href='https://api.whatsapp.com/send/?phone=919894610272&amp;text=Hi,&amp;app_absent=0'>
+                                        <img src="https://img.icons8.com/external-justicon-flat-justicon/40/null/external-whatsapp-social-media-justicon-flat-justicon.png" alt='whtsapp'/>
                                     </a>
                                 </div>
                                 <div>
                                     <a href='https://www.instagram.com/netexa_india/' target={'_blank'}>
-                                        <img src="https://img.icons8.com/external-justicon-flat-justicon/40/null/external-instagram-social-media-justicon-flat-justicon.png"/>
+                                        <img src="https://img.icons8.com/external-justicon-flat-justicon/40/null/external-instagram-social-media-justicon-flat-justicon.png" alt='insta'/>
                                     </a>
                                 </div>
                                 <div>
                                     <a href='https://twitter.com/NetexaIndia/'tabIndex={'_blank'}>
-                                        <img src="https://img.icons8.com/external-justicon-flat-justicon/40/null/external-twitter-social-media-justicon-flat-justicon.png"/>
+                                        <img src="https://img.icons8.com/external-justicon-flat-justicon/40/null/external-twitter-social-media-justicon-flat-justicon.png" alt='twitter'/>
                                     </a>
                                 </div>
                                 <div>
                                     <a>
-                                        <img src="https://img.icons8.com/external-justicon-flat-justicon/40/null/external-linkedin-social-media-justicon-flat-justicon.png"/>
+                                        <img src="https://img.icons8.com/external-justicon-flat-justicon/40/null/external-linkedin-social-media-justicon-flat-justicon.png" alt='linkedin'/>
                                     </a>
                                 </div>
                                 <div>
                                     <a href='mailto:info@netexa.in'>
-                                        <img src="https://img.icons8.com/external-justicon-flat-justicon/40/null/external-gmail-social-media-justicon-flat-justicon.png"/>
+                                        <img src="https://img.icons8.com/external-justicon-flat-justicon/40/null/external-gmail-social-media-justicon-flat-justicon.png" alt='mail'/>
                                     </a>
                                 </div>
                             </div>

@@ -18,7 +18,7 @@ function testimonial() {
                                     </div>
                                     <div class="uk-width-expand">
                                         <h3 class="uk-card-title uk-margin-remove-bottom">Gowtham</h3>
-                                        <p class="uk-margin-remove text-pink"><time datetime="2016-04-01T19:00">Dec 21, 2022</time></p>
+                                        {/* <p class="uk-margin-remove text-pink"><time datetime="2016-04-01T19:00">Dec 21, 2022</time></p> */}
                                     </div>
                                 </div>
                             </div>
@@ -40,7 +40,7 @@ function testimonial() {
                                     </div>
                                     <div class="uk-width-expand">
                                         <h3 class="uk-card-title uk-margin-remove-bottom">Prithviya </h3>
-                                        <p class="uk-margin-remove text-pink"><time datetime="2016-04-01T19:00">Jan 01, 2022</time></p>
+                                        {/* <p class="uk-margin-remove text-pink"><time datetime="2016-04-01T19:00">Jan 01, 2022</time></p> */}
                                     </div>
                                 </div>
                             </div>

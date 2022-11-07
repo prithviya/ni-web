@@ -20,6 +20,7 @@ function App() {
         <div id="home">
           <Banner/>
           <Product/>
+          {/* <Abt_section/> */}
           <Apply/>
         </div>
         <div id='about'>

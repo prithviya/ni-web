@@ -16,7 +16,7 @@ function banner() {
                 Transformation through innovation using niche technologies for Networks, Enterprise, IT and Industry Automation.
                 </p>
                 <Link to='contact' spy={true} smooth={true}>
-                    <button class="button"> 
+                    <button className="button"> 
                         Explore more
                     </button>
                 </Link>               

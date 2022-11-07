@@ -27,4 +27,6 @@ export default
     DEMO: require('../Static/life@profile.webp'),
     LIFEIMG1: require('../Static/life@img-1.webp'),
     LIFEIMG2: require('../Static/life@img-2.webp'),
+    // chatbot
+   Chatbot: require('../Static/click-to-chat.png'),
 };

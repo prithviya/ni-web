@@ -10,14 +10,14 @@ function navbar() {
             <div className='uk-navbar-left uk-margin-medium-left'>
                 <ul className='uk-navbar-nav'>
                     <li className='uk-active'>
-                        <a href="#">
-                            <img src={ Images.BRAND_LOGO } width='150px' height='150px' />
+                        <a href="#/" rel="noreferrer noopener">
+                            <img src={ Images.BRAND_LOGO } alt='logo' width='150px' height='150px' />
                         </a>
                     </li>
                 </ul>
             </div>
-            <div class="uk-navbar-right uk-margin-medium-right">
-                <ul class="uk-navbar-nav">
+            <div className="uk-navbar-right uk-margin-medium-right">
+                <ul className="uk-navbar-nav">
                     <li className='uk-visible@m custom_nav_menu'>                        
                         <Link to="home" className='text-white' spy={true} smooth={true}>Home</Link>                        
                     </li>
@@ -34,16 +34,16 @@ function navbar() {
                     <Link to="footer" className='text-white' spy={true} smooth={true}>Contact</Link>
                     </li>
                     <li className='uk-hidden@m custom_nav_menu'>
-                        <a class="uk-margin-small-right" uk-toggle="target: #offcanvas-nav-primary">
-                            <img src={ Images.MENU }/>
+                        <a href='#/' className="uk-margin-small-right" uk-toggle="target: #offcanvas-nav-primary">
+                            <img src={ Images.MENU } alt='menu'/>
                         </a>                       
                     </li>
                     <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
-                        <div class="uk-offcanvas-bar uk-flex uk-flex-column">
-                            <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+                        <div className="uk-offcanvas-bar uk-flex uk-flex-column">
+                            <ul className="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
                                 <li className='uk-active'>
-                                    <a href="#" className='uk-hidden@m custom_nav_menu'>
-                                        <img src={ Images.BRAND_LOGO } width='80px' height='80px' />
+                                    <a href="#/" className='uk-hidden@m custom_nav_menu' rel="noreferrer noopener"> 
+                                        <img src={ Images.BRAND_LOGO } alt='logo' width='80px' height='80px' />
                                     </a>
                                 </li>
                                 <hr/>
@@ -64,8 +64,7 @@ function navbar() {
                                 </li>
                             </ul>    
                         </div>
-                    </div> 
-                    
+                    </div>                    
                 </ul>
             </div>
         </nav>
@@ -77,8 +76,8 @@ function navbar() {
             position: 'fixed',
             padding: '9px 9px',
             fontSize: '2rem !important',
-            bottom: '50px',
-            right: '50px',
+            bottom: '5px',
+            right: '20px',
             background: 'linear-gradient(50deg, #f05a28 10%, #3474eb 100%)',
             color: 'rgb(194 24 76)',
             textAlign: 'center',
@@ -87,8 +86,11 @@ function navbar() {
             borderRadius: '5px',
             }}
         >
-            <img src="https://img.icons8.com/ios-filled/25/FFFFFF/login-rounded-up.png"/>
+            <img src="https://img.icons8.com/ios-filled/25/FFFFFF/login-rounded-up.png" alt='scrolltop'/>
         </button>
+        <a href="https://api.whatsapp.com/send/?phone=918248725207&amp;text=Hi," target="_blank" rel="noreferrer noopener">
+            <img className='chatbots' src={ Images.Chatbot } alt="chatbot"/>
+        </a>
     </div>
   )
 }

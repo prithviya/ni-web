@@ -6,3 +6,10 @@
 {
     background: #626060 !important;
 }
+.chatbots
+{
+    position: fixed;
+    bottom: 60px;
+    right: 10px;
+    z-index: 99;
+}

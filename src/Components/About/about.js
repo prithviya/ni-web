@@ -11,8 +11,8 @@ function about()
         <h2 className='uk-margin-remove'>Netexa India</h2>
         <div class="uk-grid-collapse uk-visible@m uk-grid-match" data-uk-grid>
           <div className='uk-width-1-2@m'>
-            <div uk-slideshow="animation: push; finite: false; autoplay: true; autoplay-interval: 1500;">
-              <div class="uk-position-relative uk-visible-toggle" tabindex="-1">
+            <div data-uk-slideshow="animation: push; finite: false; autoplay: true; autoplay-interval: 1500;">
+              <div class="uk-position-relative uk-visible-toggle" tabIndex="-1">
                   <ul class="uk-slideshow-items">
                       <li>
                         <div class="uk-card uk-card-default uk-card-body">
@@ -100,7 +100,7 @@ function about()
           </div>
           <div className='uk-width-1-4@m'>
             <div class="uk-card">
-              <img src={ Images.LIFEIMG2 }/>
+              <img src={ Images.LIFEIMG2 } alt='Life @ netexa image2'/>
             </div>
           </div>
         </div>

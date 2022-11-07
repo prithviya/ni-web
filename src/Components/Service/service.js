@@ -19,7 +19,7 @@ function service() {
                         </div>
                         <div className="uk-card-body uk-text-center">
                           <h3 className='text-black'>
-                            Cloud storage Technology
+                            Cloud Computing
                           </h3>
                           <a className=''href='/#'>
                             <button className="learn-more" data-uk-toggle="target: #modal-cloud">

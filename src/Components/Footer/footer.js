@@ -20,7 +20,7 @@ function footer() {
                         <div className="uk-card uk-card-body">
                             <img src="https://img.icons8.com/laces/64/3474eb/whatsapp.png" alt='call us'/>
                             <h3 className="uk-card-title uk-margin">Call us</h3>
-                            <p className='text-black'>98946 10272</p>
+                            <p className='text-black'>8248725207</p>
                         </div>
                     </div>
                     <div>

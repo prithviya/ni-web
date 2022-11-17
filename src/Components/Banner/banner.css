@@ -1,10 +1,11 @@
 .custom-sect-banner
 {
-  background-image: url('https://img.freepik.com/free-vector/earth-blue-wave-background_1017-36678.jpg?w=996&t=st=1661769933~exp=1661770533~hmac=64dfe08586946fd52c3c74aad3b2eef615629b9ca845b56c007d7d6cafb0b4b1');
+  /* background-image: url('https://img.freepik.com/free-vector/earth-blue-wave-background_1017-36678.jpg?w=996&t=st=1661769933~exp=1661770533~hmac=64dfe08586946fd52c3c74aad3b2eef615629b9ca845b56c007d7d6cafb0b4b1'); */
+  background-color: #fff;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
-  min-height: 95vh;
+  /* width: 100%; */
+  /* min-height: 95vh; */
 }
 .button {
   display: inline-block;

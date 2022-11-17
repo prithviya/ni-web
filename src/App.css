@@ -6,7 +6,6 @@
 {
   font-family: 'Bitter', serif !important;
   font-size: 4rem !important;
-  text-align: center;
 }
 .custom_heading:after {
   content:'';

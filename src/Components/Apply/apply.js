@@ -10,13 +10,13 @@ function apply() {
                 <div>
                     <div className="uk-card">
                     <h1 className="custom_heading">Our <br/>Solutions</h1>
-                    <img src={Images.OURSOLUTION}/>
+                    <img src={Images.OURSOLUTION} alt="storysection"/>
                     </div>
                 </div>
                 <div className="">
                     <ul className="uk-nav uk-nav-default uk-padding-remove" data-uk-switcher="connect: #component-nav; animation: uk-animation-fade">
                         <li>
-                            <a href="#">
+                            <a href="!#">
                                 <div className="uk-inline custom-sect-bg uk-float-left">
                                     <img src={Images.OURSTORY} alt='story_logo'/>
                                     <div className="uk-position-bottom-right uk-overlay">
@@ -30,7 +30,7 @@ function apply() {
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="!#">
                                 <div className="uk-inline custom-sect-bg uk-float-left">
                                 <img src={Images.STORYLOGO} alt='story_logo'/>
                                     <div className="uk-position-bottom-right uk-overlay">
@@ -44,7 +44,7 @@ function apply() {
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="!#">
                                 <div className="uk-inline custom-sect-bg uk-float-left">
                                     <img src={Images.LEADERSHIP_TEAM} alt='leadership_team'/>
                                     <div className="uk-position-bottom-right uk-overlay">

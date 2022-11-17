@@ -15,7 +15,7 @@ function service() {
                     <div>
                       <div className="uk-card uk-card-default custom-card-border">
                         <div className="uk-card-media-top">
-                          <img src={ Images.CLOUD}  alt=""/>
+                          <img src={ Images.CLOUD }  alt="cloud computing" />
                         </div>
                         <div className="uk-card-body uk-text-center">
                           <h3 className='text-black'>
@@ -326,14 +326,6 @@ function service() {
                     </div>
                   </li>
                 </ul>
-              </div>
-              <div className="uk-hidden@s">
-                  <a className="uk-position-center-left uk-position-small"  rel="noopener noreferrer" href="/#" data-uk-slidenav-previous uk-slider-item="previous"></a>
-                  <a className="uk-position-center-right uk-position-small"  rel="noopener noreferrer" href="/#" data-uk-slidenav-next data-uk-slider-item="next"></a>
-              </div>
-              <div className="uk-visible@s">
-                  <a className="uk-position-center-left-out uk-position-small"  rel="noopener noreferrer" href="/#" data-uk-slidenav-previous uk-slider-item="previous"></a>
-                  <a className="uk-position-center-right-out uk-position-small"  rel="noopener noreferrer" href="/#" data-uk-slidenav-next uk-slider-item="next"></a>
               </div>
             </div>
             <ul className="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>

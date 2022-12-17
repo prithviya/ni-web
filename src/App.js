@@ -12,6 +12,7 @@ import Gallery from './Components/Gallery/gallery';
 // import Abt_section from './Components/abt/abt';
 import Product from './Components/Product/product';
 import Apply from './Components/Apply/apply';
+import FAQ from './Components/Faq/faq';
 
 function App() {
   return (
@@ -37,6 +38,9 @@ function App() {
         </div>
         <div id='contact'>
           <Contact/>
+        </div>
+        <div id='career'>
+          <FAQ/>
         </div>
         <div id='footer'>
           <Footer/>

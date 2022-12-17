@@ -68,7 +68,7 @@ function form()
                     <span className="button-text">Submit</span>
                 </button>
                 <div className="clear">
-                    {done && <div style={{color: "#fd7e14", marginTop: "15px", fontSize: "18px", textAlign: "center"}}>Thank you</div>}</div>
+                    {done && <div style={{color: "#1e81c0", marginTop: "15px", fontSize: "18px", textAlign: "center"}}>Thank you!!! For more details or enquiries contact us vani53maha@gmail.com</div>}</div>
             </form>
         </div>
     </div>

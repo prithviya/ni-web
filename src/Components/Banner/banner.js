@@ -1,14 +1,14 @@
 import React from 'react';
 import './banner.css';
-import navigation_bar from '../Navbar/navbar';
+import Navbar from '../Navbar/navbar'
 import { Link } from "react-scroll";
-import sample from '../../Static/banner.mp4';
+// import sample from '../../Static/banner.mp4';
 
 function banner() {
   return (
     <div>
-        <navigation_bar/>
-        <div className='uk-section'>
+       <Navbar/>
+        {/* <div className='uk-section'>
             <div className='uk-container'>
                 <div class="uk-grid-small uk-grid-match" data-uk-grid>
                     <div class="uk-width-1-2">
@@ -35,18 +35,18 @@ function banner() {
                     </div>                    
                 </div>    
             </div>
-        </div>
+        </div> */}
         <div className='uk-section custom-sect-banner'>
             {/* <video className='videoTag' autoPlay loop muted>
                 <source src={sample} type='video/mp4' />
             </video> */}
             <div className='uk-position uk-position-center uk-text-center'>
-                {/* <h1 className='title text-orange'>
+                <h1 className='title text-orange'>
                     Redefining Possibilities
-                </h1>    */}
-                {/* <p className='text-black'>
+                </h1>   
+                <p className='text-black'>
                 Transformation through innovation using niche technologies for Networks, Enterprise, IT and Industry Automation.
-                </p> */}
+                </p>
                                
             </div>
         </div>

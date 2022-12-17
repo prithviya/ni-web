@@ -53,7 +53,7 @@ function footer() {
                                 </li>
                                 <li className='custom-footer-nav'>
                                     <Link to="about" spy={true} smooth={true}>
-                                        About Us
+                                        About
                                     </Link>
                                 </li>
                                 <li className='custom-footer-nav'>
@@ -62,12 +62,12 @@ function footer() {
                                     </Link>
                                 </li>
                                 <li className='custom-footer-nav'>
-                                    <Link to='contact' spy={true} smooth={true}>
-                                        Testimonial
+                                    <Link to='career' spy={true} smooth={true}>
+                                        Career
                                     </Link>
                                 </li>
                                 <li className='custom-footer-nav'>
-                                    <Link to='footer' spy={true} smooth={true}>
+                                    <Link to='contact' spy={true} smooth={true}>
                                         Contact
                                     </Link>
                                 </li>
@@ -124,7 +124,7 @@ function footer() {
                 </div>
             </div>
             <hr className='uk-margin-remove'/>
-            <p className='uk-padding-small uk-text-center text-black'>
+            <p className='uk-padding-small uk-margin-remove uk-text-center text-black'>
                 2022 © Copyright. All Rights Reserved
             </p>
         </div>
